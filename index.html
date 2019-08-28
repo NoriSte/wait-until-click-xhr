@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script src="https://unpkg.com/axios@0.2.1/dist/axios.min.js"></script>
+        <script>
+            var i = 0;
+            buttonClick = function(){
+                console.log(i);
+                i++;
+                if(i > 2) {
+                    console.log("post call");
+                    axios.post("/example");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="javascript:buttonClick()">Click me</button>
+    </body>
+</html>
