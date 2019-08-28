@@ -65,3 +65,5 @@ context("Click", () => {
   });
 });
 ```
+
+![The screenshot of the successful test](assets/screenshot.png)
